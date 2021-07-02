@@ -1,0 +1,346 @@
+------------------------------12:32:22------------------------------
+Mensagem de Erro:-> MontarObjetoDoReader - Repositorio
+<=
+Pilha de Execução:->    em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> Exception<=
+Origem da Exceção:-> Repositorios<=
+==============================12:32:22==============================
+------------------------------13:51:41------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================13:51:41==============================
+------------------------------13:58:34------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================13:58:34==============================
+------------------------------14:01:18------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:01:18==============================
+------------------------------14:03:55------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:03:55==============================
+------------------------------14:05:17------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:05:17==============================
+------------------------------14:08:11------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.FecharConexao(SqlConnection conexao) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 146
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 86
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Repositorios<=
+==============================14:08:11==============================
+------------------------------14:15:30------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.FecharConexao(SqlConnection conexao) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 151
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 91
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Repositorios<=
+==============================14:15:30==============================
+------------------------------14:18:38------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:18:38==============================
+------------------------------14:20:33------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:20:33==============================
+------------------------------14:27:29------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:27:29==============================
+------------------------------14:45:04------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 84
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:45:04==============================
+------------------------------14:52:43------------------------------
+Mensagem de Erro:-> O método ou a operação não está implementada.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand comando, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 68
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NotImplementedException<=
+Origem da Exceção:-> Repositorios<=
+==============================14:52:43==============================
+------------------------------14:56:05------------------------------
+Mensagem de Erro:-> O método ou a operação não está implementada.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand comando, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 68
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NotImplementedException<=
+Origem da Exceção:-> Repositorios<=
+==============================14:56:05==============================
+------------------------------14:58:32------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 89
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================14:58:32==============================
+------------------------------15:14:20------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.FecharConexao(SqlConnection conexao) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 155
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 95
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Repositorios<=
+==============================15:14:20==============================
+------------------------------15:16:49------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.FecharConexao(SqlConnection conexao) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 152
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 92
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Repositorios<=
+==============================15:16:49==============================
+------------------------------15:18:39------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.FecharConexao(SqlConnection conexao) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 153
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 93
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Repositorios<=
+==============================15:18:39==============================
+------------------------------15:20:54------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Repositorios.ConexaoBancoSqlServer.FecharConexao(SqlConnection conexao) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 154
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 94
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Repositorios<=
+==============================15:20:54==============================
+------------------------------15:23:06------------------------------
+Mensagem de Erro:-> Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 95
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================15:23:06==============================
+------------------------------15:41:09------------------------------
+Mensagem de Erro:-> O método ou a operação não está implementada.
+Uma exceção foi acionada pelo destino de uma chamada.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 99
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================15:41:09==============================
+------------------------------15:42:14------------------------------
+Mensagem de Erro:-> O método ou a operação não está implementada.
+Uma exceção foi acionada pelo destino de uma chamada.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 297
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand& command, TObject objeto, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 99
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 235<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================15:42:14==============================

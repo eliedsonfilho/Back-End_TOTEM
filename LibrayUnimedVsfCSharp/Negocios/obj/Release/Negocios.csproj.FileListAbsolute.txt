@@ -1,0 +1,32 @@
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Negocios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Negocios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Util.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\itextsharp.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\FluorineFx.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\antlr.runtime.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\log4net.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\bin\Release\Util.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\obj\Release\Negocios.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\obj\Release\Negocios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Negocios\obj\Release\Negocios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Negocios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Negocios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Dados.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Repositorios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Util.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\itextsharp.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\FluorineFx.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\antlr.runtime.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\log4net.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Dados.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Repositorios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\bin\Release\Util.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\obj\Release\Negocios.csprojResolveAssemblyReference.cache
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\obj\Release\Negocios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\obj\Release\Negocios.pdb

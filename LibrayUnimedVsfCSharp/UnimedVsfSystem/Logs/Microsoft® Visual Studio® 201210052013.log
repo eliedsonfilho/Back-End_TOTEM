@@ -1,0 +1,14 @@
+------------------------------10:57:44------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Servicos.Fachada.ObterPorDocFinanceiro(Int32 autoIdDocFin, String codigoSistema, TelosUser usuario) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 438<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Servicos<=
+==============================10:57:44==============================
+------------------------------10:58:03------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Servicos.Fachada.ObterPorDocFinanceiro(Int32 autoIdDocFin, String codigoSistema, TelosUser usuario) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 438<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Servicos<=
+==============================10:58:03==============================

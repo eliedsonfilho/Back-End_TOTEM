@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Repositorio_SQLSERVER_INSERT_UPDATE</Title>
+      <Author>Microsoft</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Classe</ID>
+          <ToolTip>Classe</ToolTip>
+          <Default>Classe</Default>
+          <Function>
+          </Function>
+        </Literal>
+      <Literal Editable="true">
+          <ID>ObjetoInserido</ID>
+          <ToolTip>ObjetoInserido</ToolTip>
+          <Default>ObjetoInserido</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+       <![CDATA[
+        public $Classe$ Inserir($Classe$ $ObjetoInserido$)
+        {
+            IDbCommand command;
+		
+	    //Executando a Insert
+	    try
+	    {
+		command = new SqlCommand(@"INSERT INTO [dbo].[$Classe$]
+				       ([Codigo]
+				       ,[Beneficiario])
+				 VALUES
+				       (@Codigo
+				       ,@Beneficiario)
+					SELECT SCOPE_IDENTITY()");//Essa Linha Retorna O ID do Objeto Inserido
+
+		SqlParameter Codigo = new SqlParameter("@Codigo", $ObjetoInserido$.Codigo);
+		command.Parameters.Add(Codigo);
+
+		if($ObjetoInserido$.Beneficiario != null)
+		{
+			SqlParameter Beneficiario = new SqlParameter("@Beneficiario", $ObjetoInserido$.Beneficiario);
+			command.Parameters.Add(Beneficiario);
+		}
+		else
+		{
+			SqlParameter Beneficiario = new SqlParameter("@Beneficiario", DBNull.Value);
+			command.Parameters.Add(Beneficiario);
+		}
+
+		//Pegar o Retorno do Insert
+		$ObjetoInserido$.AutoId = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.SqlServer).ExecutarNaoConsulta(command);
+	    }
+	    catch (Exception)
+	    {
+		$ObjetoInserido$ = null;
+		throw;
+	    }
+		
+            return $ObjetoInserido$;
+        }
+        
+        public $Classe$ Atualizar($Classe$ $ObjetoInserido$)
+	{
+	    IDbCommand command;
+
+	    //Executando a Insert
+	    try
+	    {
+		command = new SqlCommand(@"UPDATE [dbo].[$Classe$]
+					   SET [Codigo] = @Codigo
+					      ,[Beneficiario] = @Beneficiario
+					 WHERE AutoId = @AutoId;");
+
+		SqlParameter AutoId = new SqlParameter("@AutoId", $ObjetoInserido$.AutoId);
+		command.Parameters.Add(AutoId);
+
+		SqlParameter Codigo = new SqlParameter("@Codigo", $ObjetoInserido$.Codigo);
+		command.Parameters.Add(Codigo);
+
+		
+		if($ObjetoInserido$.Beneficiario != null)
+		{
+			SqlParameter Beneficiario = new SqlParameter("@Beneficiario", $ObjetoInserido$.Beneficiario);
+			command.Parameters.Add(Beneficiario);
+		}
+		else
+		{
+			SqlParameter Beneficiario = new SqlParameter("@Beneficiario", DBNull.Value);
+			command.Parameters.Add(Beneficiario);
+		}
+
+		//Pegar o Retorno do Insert
+		$ObjetoInserido$.AutoId = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.SqlServer).ExecutarNaoConsulta(command);
+	    }
+	    catch (Exception)
+	    {
+		$ObjetoInserido$ = null;
+		throw;
+	    }
+
+	    return $ObjetoInserido$;
+        }
+    
+   	]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

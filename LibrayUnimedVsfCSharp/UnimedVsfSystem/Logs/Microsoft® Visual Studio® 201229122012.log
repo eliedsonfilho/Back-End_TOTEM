@@ -1,0 +1,20 @@
+------------------------------12:10:02------------------------------
+Mensagem de Erro:-> O parâmetro 'address' não pode ser uma seqüência de caracteres vazia.
+Nome do parâmetro: address
+<=
+Pilha de Execução:->    em System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   em System.Net.Mail.MailAddress..ctor(String address, String displayName)
+   em Util.EmailNotificationService.EnviarEmail(String toEmailAddress, String ccEmailAddress, String bccEmailAddress, String fromEmailAddress, String fromDisplayName, String senha, String subject, String body, String attachment, String portServer, String host, Boolean enableSsl) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\EmailNotificationService.cs:linha 33<=
+Classe da Exceção:-> ArgumentException<=
+Origem da Exceção:-> System<=
+==============================12:10:02==============================
+------------------------------12:15:15------------------------------
+Mensagem de Erro:-> Valor não pode ser nulo.
+Nome do parâmetro: address
+<=
+Pilha de Execução:->    em System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   em System.Net.Mail.MailAddress..ctor(String address, String displayName)
+   em Util.EmailNotificationService.EnviarEmail(String toEmailAddress, String ccEmailAddress, String bccEmailAddress, String fromEmailAddress, String fromDisplayName, String senha, String subject, String body, String attachment, String portServer, String host, Boolean enableSsl) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\EmailNotificationService.cs:linha 33<=
+Classe da Exceção:-> ArgumentNullException<=
+Origem da Exceção:-> System<=
+==============================12:15:15==============================

@@ -1,0 +1,54 @@
+------------------------------16:26:14------------------------------
+Mensagem de Erro:-> Incorrect syntax near the keyword 'TOP'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near 'Obs'.
+<=
+Pilha de Execução:->    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 109
+   em Repositorios.RepositorioDadosBoletoCobranca.ObterPorDocFinanceiro(Int32 autoIdDocFinanceiro, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\RepositorioDadosBoletoCobranca.cs:linha 204
+   em Negocios.NegocioDadosBoletoCobranca.ObterPorDocFinanceiro(Int32 autoIdDocFinan) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\NegocioDadosBoletoCobranca.cs:linha 26
+   em Servicos.Fachada.ObterPorDocFinanceiro(Int32 autoIdDocFin, String codigoSistema, TelosUser usuario) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 439<=
+Classe da Exceção:-> SqlException<=
+Origem da Exceção:-> .Net SqlClient Data Provider<=
+==============================16:26:14==============================
+------------------------------16:34:01------------------------------
+Mensagem de Erro:-> Incorrect syntax near the keyword 'TOP'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+Incorrect syntax near the keyword 'AS'.
+<=
+Pilha de Execução:->    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 109
+   em Repositorios.RepositorioDadosBoletoCobranca.ObterPorDocFinanceiro(Int32 autoIdDocFinanceiro, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\RepositorioDadosBoletoCobranca.cs:linha 204
+   em Negocios.NegocioDadosBoletoCobranca.ObterPorDocFinanceiro(Int32 autoIdDocFinan) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\NegocioDadosBoletoCobranca.cs:linha 26
+   em Servicos.Fachada.ObterPorDocFinanceiro(Int32 autoIdDocFin, String codigoSistema, TelosUser usuario) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 439<=
+Classe da Exceção:-> SqlException<=
+Origem da Exceção:-> .Net SqlClient Data Provider<=
+==============================16:34:01==============================

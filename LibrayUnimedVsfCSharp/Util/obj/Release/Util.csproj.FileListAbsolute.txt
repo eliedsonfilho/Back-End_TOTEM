@@ -1,0 +1,33 @@
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\Util.dll.config
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\Util.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\Util.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\Boleto.Net.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\itextsharp.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\itextsharp.xtra.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\antlr.runtime.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\log4net.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\bin\Release\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\obj\Release\Util.Properties.Resources.resources
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\obj\Release\Util.TratamentoErros.frmVisualizarErro.resources
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\obj\Release\Util.csproj.GenerateResource.Cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\obj\Release\Util.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\obj\Release\Util.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\Util.dll.config
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\Util.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\Util.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\Boleto.Net.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\Dados.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\FluorineFx.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\itextsharp.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\itextsharp.xtra.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\antlr.runtime.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\log4net.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\bin\Release\Dados.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\obj\Release\Util.Properties.Resources.resources
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\obj\Release\Util.TratamentoErros.frmVisualizarErro.resources
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\obj\Release\Util.csproj.GenerateResource.Cache
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\obj\Release\Util.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Util\obj\Release\Util.pdb

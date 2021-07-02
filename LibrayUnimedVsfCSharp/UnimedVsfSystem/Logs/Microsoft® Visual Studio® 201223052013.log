@@ -1,0 +1,60 @@
+------------------------------12:16:10------------------------------
+Mensagem de Erro:-> Método 'Repositorios.RepositorioGrauEscolaridade.ObterPorId' não encontrado.
+Uma exceção foi acionada pelo destino de uma chamada.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 298
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 109
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 285<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================12:16:10==============================
+------------------------------12:16:22------------------------------
+Mensagem de Erro:-> Método 'Repositorios.RepositorioGrauEscolaridade.ObterPorId' não encontrado.
+Uma exceção foi acionada pelo destino de uma chamada.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 298
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 109
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 285<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================12:16:22==============================
+------------------------------12:16:49------------------------------
+Mensagem de Erro:-> Método 'Repositorios.RepositorioGrauEscolaridade.ObterPorId' não encontrado.
+Uma exceção foi acionada pelo destino de uma chamada.
+Uma exceção foi acionada pelo destino de uma chamada.
+<=
+Pilha de Execução:->    em System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   em System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   em System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   em System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   em Repositorios.Repositorio.MontarObjetoDoReaderSemRead[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 298
+   em Repositorios.Repositorio.MontarObjetoDoReader[TObject](IDataReader dataReader, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\Repositorio.cs:linha 62
+   em Repositorios.ConexaoBancoSqlServer.ExecutarConsultaObject[TObject](IDbCommand command, TObject objeto, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\ConexaoBancoSqlServer.cs:linha 109
+   em Repositorios.RepositorioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\RepositorioCartaoIdentificacao.cs:linha 175
+   em Negocios.NegocioCartaoIdentificacao.ObterPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Negocios\NegocioCartaoIdentificacao.cs:linha 33
+   em Servicos.Fachada.ObterCartaoIdentificacaoPorCodigo(String codigo, Boolean lazy) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 285<=
+Classe da Exceção:-> TargetInvocationException<=
+Origem da Exceção:-> mscorlib<=
+==============================12:16:49==============================

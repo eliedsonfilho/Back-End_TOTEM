@@ -1,0 +1,64 @@
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Servicos.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\FluorineFx.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Negocios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\antlr.runtime.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\log4net.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Negocios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\bin\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\obj\Debug\Servicos.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\obj\Debug\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Servicos\obj\Debug\Servicos.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Servicos.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Negocios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\antlr.runtime.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\log4net.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Negocios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\bin\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\obj\Debug\Servicos.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\obj\Debug\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Servicos\obj\Debug\Servicos.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Servicos.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Negocios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Util.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\itextsharp.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Negocios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Util.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\obj\Debug\Servicos.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\obj\Debug\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\obj\Debug\Servicos.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Servicos.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Servicos.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Dados.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\FluorineFx.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Negocios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Util.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Repositorios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\itextsharp.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\antlr.runtime.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\log4net.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Dados.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Negocios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Util.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Debug\Repositorios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\obj\Debug\Servicos.csprojResolveAssemblyReference.cache
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\obj\Debug\Servicos.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\obj\Debug\Servicos.pdb

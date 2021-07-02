@@ -1,0 +1,35 @@
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Servicos.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Negocios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Util.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\itextsharp.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\antlr.runtime.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\log4net.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Negocios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Util.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\bin\Release\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\obj\Release\Servicos.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\obj\Release\Servicos.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Servicos\obj\Release\Servicos.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Servicos.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Servicos.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Dados.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\FluorineFx.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Negocios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Util.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Repositorios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\itextsharp.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\antlr.runtime.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\log4net.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Dados.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Negocios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Util.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\bin\Release\Repositorios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\obj\Release\Servicos.csprojResolveAssemblyReference.cache
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\obj\Release\Servicos.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\obj\Release\Servicos.pdb

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2013-05-10T10:37:58.0000000-03:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/antlr.runtime.dll">
+      <publishTime>01/08/2006 05:34:52</publishTime>
+    </File>
+    <File Include="bin/Boleto.Net.dll">
+      <publishTime>04/09/2013 18:18:01</publishTime>
+    </File>
+    <File Include="bin/Dados.dll">
+      <publishTime>10/28/2013 14:43:48</publishTime>
+    </File>
+    <File Include="bin/Dados.pdb">
+      <publishTime>10/05/2012 17:07:32</publishTime>
+    </File>
+    <File Include="bin/FluorineFx.dll">
+      <publishTime>11/11/2008 21:23:20</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>05/12/2012 14:53:44</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/30/2006 08:24:28</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>05/10/2013 10:37:58</publishTime>
+    </File>
+    <File Include="bin/Negocios.dll">
+      <publishTime>04/11/2014 11:30:14</publishTime>
+    </File>
+    <File Include="bin/Negocios.pdb">
+      <publishTime>10/16/2012 09:48:43</publishTime>
+    </File>
+    <File Include="bin/Relatorios.dll">
+      <publishTime>04/11/2014 11:30:16</publishTime>
+    </File>
+    <File Include="bin/Repositorios.dll">
+      <publishTime>03/04/2014 16:06:48</publishTime>
+    </File>
+    <File Include="bin/Repositorios.pdb">
+      <publishTime>10/16/2012 09:48:42</publishTime>
+    </File>
+    <File Include="bin/Resources/imprimir.png">
+      <publishTime>05/16/2013 14:55:40</publishTime>
+    </File>
+    <File Include="bin/Servicos.dll">
+      <publishTime>04/11/2014 11:30:15</publishTime>
+    </File>
+    <File Include="bin/Servicos.pdb">
+      <publishTime>10/16/2012 09:48:43</publishTime>
+    </File>
+    <File Include="bin/UnimedVsfSystem.dll">
+      <publishTime>04/11/2014 11:30:17</publishTime>
+    </File>
+    <File Include="bin/UnimedVsfSystem.pdb">
+      <publishTime>10/16/2012 09:48:43</publishTime>
+    </File>
+    <File Include="bin/Util.dll">
+      <publishTime>02/19/2014 10:12:12</publishTime>
+    </File>
+    <File Include="Boleto.aspx">
+      <publishTime>04/11/2014 11:09:04</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/05/2013 10:37:58</publishTime>
+    </File>
+    <File Include="DownloadFile.ashx">
+      <publishTime>10/05/2013 10:37:58</publishTime>
+    </File>
+    <File Include="Erro.aspx">
+      <publishTime>10/05/2013 16:52:40</publishTime>
+    </File>
+    <File Include="Export.aspx">
+      <publishTime>10/05/2013 10:37:58</publishTime>
+    </File>
+    <File Include="Gateway.aspx">
+      <publishTime>10/05/2013 10:37:58</publishTime>
+    </File>
+    <File Include="ImagemCodigoBarra.ashx">
+      <publishTime>10/05/2013 10:37:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>10/05/2013 10:38:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>10/05/2013 10:38:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>10/05/2013 10:38:00</publishTime>
+    </File>
+    <File Include="UploadFile.ashx">
+      <publishTime>10/05/2013 10:38:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/11/2014 11:30:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

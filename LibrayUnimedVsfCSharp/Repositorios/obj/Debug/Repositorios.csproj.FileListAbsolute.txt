@@ -1,0 +1,34 @@
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\bin\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\bin\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\bin\Debug\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\bin\Debug\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\bin\Debug\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\bin\Debug\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\obj\Debug\Repositorios.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\obj\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\Repositorios\obj\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\bin\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\bin\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\bin\Debug\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\bin\Debug\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\bin\Debug\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\bin\Debug\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\obj\Debug\Repositorios.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\obj\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\UnimedVsfSystem\LibraryUniVsfCSharp\BuildProcessTemplates\Repositorios\obj\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Repositorios.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Dados.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\MySql.Data.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\MySql.Web.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Dados.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\obj\Debug\Repositorios.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\obj\Debug\Repositorios.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Repositorios\obj\Debug\Repositorios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Repositorios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Repositorios.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Dados.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\bin\Debug\Dados.pdb
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\obj\Debug\Repositorios.csprojResolveAssemblyReference.cache
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\obj\Debug\Repositorios.dll
+C:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Repositorios\obj\Debug\Repositorios.pdb

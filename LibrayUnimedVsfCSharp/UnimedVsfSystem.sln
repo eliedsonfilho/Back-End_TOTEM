@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnimedVsfSystem", "UnimedVsfSystem\UnimedVsfSystem.csproj", "{540C3CF4-BFD7-46C5-8F59-BD5CEE7958C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorios", "Repositorios\Repositorios.csproj", "{D9A5E54A-6F03-441A-9A9B-01FDB5A96B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{33D7ECED-89FF-4514-BC38-42B257D56C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicos", "Servicos\Servicos.csproj", "{ED56FE38-9C71-4F1B-B31E-5D8395180598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocios", "Negocios\Negocios.csproj", "{DDE8C2B6-049C-4F89-AF71-DC8FBB7DE5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{7BBB6D6E-8CB2-4C3D-86CA-F38C6FE59E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relatorios", "Relatorios\Relatorios.csproj", "{B32EF2D9-1D43-406B-BB42-2FF299B39EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesWinForms", "TestesWinForms\TestesWinForms.csproj", "{CC44430B-9782-467A-A876-1C1EF2F7FABF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://serv-hilum:8080/tfs/unimed_vsf
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Dados\\Dados.csproj
+		SccProjectName1 = Dados
+		SccLocalPath1 = Dados
+		SccProjectUniqueName2 = Repositorios\\Repositorios.csproj
+		SccProjectName2 = Repositorios
+		SccLocalPath2 = Repositorios
+		SccProjectUniqueName3 = Negocios\\Negocios.csproj
+		SccProjectName3 = Negocios
+		SccLocalPath3 = Negocios
+		SccProjectUniqueName4 = Servicos\\Servicos.csproj
+		SccProjectName4 = Servicos
+		SccLocalPath4 = Servicos
+		SccProjectUniqueName5 = UnimedVsfSystem\\UnimedVsfSystem.csproj
+		SccProjectName5 = UnimedVsfSystem
+		SccLocalPath5 = UnimedVsfSystem
+		SccProjectUniqueName6 = Relatorios\\Relatorios.csproj
+		SccProjectName6 = Relatorios
+		SccLocalPath6 = Relatorios
+		SccProjectUniqueName7 = Util\\Util.csproj
+		SccProjectName7 = Util
+		SccLocalPath7 = Util
+		SccProjectUniqueName8 = TestesWinForms\\TestesWinForms.csproj
+		SccProjectName8 = TestesWinForms
+		SccLocalPath8 = TestesWinForms
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{540C3CF4-BFD7-46C5-8F59-BD5CEE7958C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540C3CF4-BFD7-46C5-8F59-BD5CEE7958C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540C3CF4-BFD7-46C5-8F59-BD5CEE7958C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540C3CF4-BFD7-46C5-8F59-BD5CEE7958C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A5E54A-6F03-441A-9A9B-01FDB5A96B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A5E54A-6F03-441A-9A9B-01FDB5A96B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A5E54A-6F03-441A-9A9B-01FDB5A96B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A5E54A-6F03-441A-9A9B-01FDB5A96B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D7ECED-89FF-4514-BC38-42B257D56C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D7ECED-89FF-4514-BC38-42B257D56C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D7ECED-89FF-4514-BC38-42B257D56C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D7ECED-89FF-4514-BC38-42B257D56C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED56FE38-9C71-4F1B-B31E-5D8395180598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED56FE38-9C71-4F1B-B31E-5D8395180598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED56FE38-9C71-4F1B-B31E-5D8395180598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED56FE38-9C71-4F1B-B31E-5D8395180598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE8C2B6-049C-4F89-AF71-DC8FBB7DE5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE8C2B6-049C-4F89-AF71-DC8FBB7DE5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE8C2B6-049C-4F89-AF71-DC8FBB7DE5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE8C2B6-049C-4F89-AF71-DC8FBB7DE5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBB6D6E-8CB2-4C3D-86CA-F38C6FE59E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBB6D6E-8CB2-4C3D-86CA-F38C6FE59E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBB6D6E-8CB2-4C3D-86CA-F38C6FE59E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBB6D6E-8CB2-4C3D-86CA-F38C6FE59E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32EF2D9-1D43-406B-BB42-2FF299B39EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32EF2D9-1D43-406B-BB42-2FF299B39EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32EF2D9-1D43-406B-BB42-2FF299B39EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32EF2D9-1D43-406B-BB42-2FF299B39EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC44430B-9782-467A-A876-1C1EF2F7FABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC44430B-9782-467A-A876-1C1EF2F7FABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC44430B-9782-467A-A876-1C1EF2F7FABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC44430B-9782-467A-A876-1C1EF2F7FABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

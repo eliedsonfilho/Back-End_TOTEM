@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Fachada_METODOS_</Title>
+      <Author>Microsoft</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Classe</ID>
+          <ToolTip>Classe</ToolTip>
+          <Default>Classe</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Parametro</ID>
+          <ToolTip>Parametro</ToolTip>
+          <Default>objeto</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[   
+      public $Classe$ Obter$Classe$PorId(int autoId, bool lazy, string codigoSistema, TelosUser usuario)
+      {
+	  $Classe$ $Parametro$Tmp;
+	  try
+	  {
+	      $Parametro$Tmp = _negocio$Classe$.ObterPorId(autoId, lazy);
+	  }
+	  catch (Exception exception)
+	  {
+	      $Parametro$Tmp = null;
+	      VSF_LogSistema logSistema = new VSF_LogSistema();
+	      logSistema.Mensagem = TratamentoExcecoes.TratarRecursaoExcecao(exception);
+	      logSistema.Mensagem += " _negocio$Classe$.ObterPorId";
+	      logSistema.Sistema = GetInstancia().ObterVSF_SistemaPoCodigo(codigoSistema, true,codigoSistema,usuario);
+              GetInstancia().InserirVSF_LogSistema(logSistema,codigoSistema,usuario);
+      	      throw new Exception(exception.Message);
+	  }
+	  return $Parametro$Tmp;
+      }
+
+      public IList<$Classe$> ObterTodos$Classe$s(bool lazy, string codigoSistema, TelosUser usuario)
+      {
+      	  IList<$Classe$> $Parametro$sTmp;	
+	  try
+	  {
+	     $Parametro$sTmp = _negocio$Classe$.ObterTodos(lazy);
+	  }
+	  catch (Exception exception)
+	  {
+	      $Parametro$sTmp = null;
+      	      VSF_LogSistema logSistema = new VSF_LogSistema();
+	      logSistema.Mensagem = TratamentoExcecoes.TratarRecursaoExcecao(exception);
+	      logSistema.Mensagem += " _negocio$Classe$.ObterTodos";
+	      logSistema.Sistema = GetInstancia().ObterVSF_SistemaPoCodigo(codigoSistema, true,codigoSistema,usuario);
+              GetInstancia().InserirVSF_LogSistema(logSistema,codigoSistema,usuario);
+      	      throw new Exception(exception.Message);
+	  }
+	  
+	  return $Parametro$sTmp;
+      }
+
+      public IList<$Classe$> ObterTodos$Classe$s($Classe$ $Parametro$, bool lazy, string codigoSistema, TelosUser usuario)
+      {
+	  IList<$Classe$> $Parametro$sTmp;	
+	  try
+	  {
+	     $Parametro$sTmp = _negocio$Classe$.ObterTodos($Parametro$, lazy);
+	  }
+	  catch (Exception exception)
+	  {
+
+	      $Parametro$sTmp = null;
+	      VSF_LogSistema logSistema = new VSF_LogSistema();
+	      logSistema.Mensagem = TratamentoExcecoes.TratarRecursaoExcecao(exception);
+	      logSistema.Mensagem += " _negocio$Classe$.ObterTodos";
+	      logSistema.Sistema = GetInstancia().ObterVSF_SistemaPoCodigo(codigoSistema, true,codigoSistema,usuario);
+	      GetInstancia().InserirVSF_LogSistema(logSistema,codigoSistema,usuario);
+      	      throw new Exception(exception.Message);
+	  }
+	  	  
+	  return $Parametro$sTmp;
+      }
+      
+      public $Classe$ Inserir$Classe$($Classe$ $Parametro$, string codigoSistema, TelosUser usuario)
+      {
+      	  $Classe$ $Parametro$Tmp;
+      	  try
+      	  {
+      	      $Parametro$Tmp = _negocio$Classe$.Inserir($Parametro$);
+      	  }
+      	  catch (Exception exception)
+      	  {
+      	      $Parametro$Tmp = null;
+      	      VSF_LogSistema logSistema = new VSF_LogSistema();
+	      logSistema.Mensagem = TratamentoExcecoes.TratarRecursaoExcecao(exception);
+	      logSistema.Mensagem += " _negocio$Classe$.Inserir";
+	      logSistema.Sistema = GetInstancia().ObterVSF_SistemaPoCodigo(codigoSistema, true,codigoSistema,usuario);
+              GetInstancia().InserirVSF_LogSistema(logSistema,codigoSistema,usuario);
+      	      throw new Exception(exception.Message);
+      	  }
+      	  return $Parametro$Tmp;
+      }
+      
+      public $Classe$ Atualizar$Classe$($Classe$ $Parametro$, string codigoSistema, TelosUser usuario)
+      {
+	  $Classe$ $Parametro$Tmp;
+	  try
+	  {
+	      $Parametro$Tmp = _negocio$Classe$.Atualizar($Parametro$);
+	  }
+	  catch (Exception exception)
+	  {
+	      $Parametro$Tmp = null;
+	      VSF_LogSistema logSistema = new VSF_LogSistema();
+	      logSistema.Mensagem = TratamentoExcecoes.TratarRecursaoExcecao(exception);
+	      logSistema.Mensagem += " _negocio$Classe$.Atualizar";
+	      logSistema.Sistema = GetInstancia().ObterVSF_SistemaPoCodigo(codigoSistema, true,codigoSistema,usuario);
+              GetInstancia().InserirVSF_LogSistema(logSistema,codigoSistema,usuario);
+	      throw new Exception(exception.Message);
+	  }
+	  return $Parametro$Tmp;
+      }
+      ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

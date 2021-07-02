@@ -1,0 +1,22 @@
+------------------------------15:53:09------------------------------
+Mensagem de Erro:-> O processo não pode acessar o arquivo 'C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\UnimedVsfSystem\Boletos\2023510.pdf' porque ele está sendo usado por outro processo.
+<=
+Pilha de Execução:->    em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode)
+   em Util.CriarArquivo.CriarPdf(String arquivo) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 154<=
+Classe da Exceção:-> IOException<=
+Origem da Exceção:-> mscorlib<=
+==============================15:53:09==============================
+------------------------------17:38:22------------------------------
+Mensagem de Erro:-> O processo não pode acessar o arquivo 'C:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\UnimedVsfSystem\Boletos\2023510.pdf' porque ele está sendo usado por outro processo.
+<=
+Pilha de Execução:->    em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode)
+   em Util.CriarArquivo.CriarPdf(String arquivo) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 154<=
+Classe da Exceção:-> IOException<=
+Origem da Exceção:-> mscorlib<=
+==============================17:38:22==============================

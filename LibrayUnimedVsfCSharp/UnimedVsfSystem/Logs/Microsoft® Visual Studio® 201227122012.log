@@ -1,0 +1,40 @@
+------------------------------12:04:31------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================12:04:31==============================
+------------------------------12:05:42------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================12:05:42==============================
+------------------------------12:08:19------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================12:08:19==============================
+------------------------------16:32:31------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================16:32:31==============================

@@ -1,0 +1,48 @@
+------------------------------10:01:49------------------------------
+Mensagem de Erro:-> O parâmetro 'address' não pode ser uma seqüência de caracteres vazia.
+Nome do parâmetro: address
+<=
+Pilha de Execução:->    em System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   em System.Net.Mail.MailAddress..ctor(String address, String displayName)
+   em Util.EmailNotificationService.EnviarEmail(String toEmailAddress, String ccEmailAddress, String bccEmailAddress, String fromEmailAddress, String fromDisplayName, String senha, String subject, String body, String attachment, String portServer, String host, Boolean enableSsl) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\EmailNotificationService.cs:linha 33<=
+Classe da Exceção:-> ArgumentException<=
+Origem da Exceção:-> System<=
+==============================10:01:49==============================
+------------------------------10:34:27------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================10:34:27==============================
+------------------------------10:51:12------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarPdf(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 116<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================10:51:12==============================
+------------------------------10:51:24------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================10:51:24==============================
+------------------------------10:51:51------------------------------
+Mensagem de Erro:-> Diretório de Relatório não localizado!
+<=
+Pilha de Execução:->    em Relatorios.GerenciadorRelatorios.SelecionarRelatorio() na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Relatorios\GerenciadorRelatorios.cs:linha 66
+   em Relatorios.GerenciadorRelatorios.GerarRelatorio(String nomeArquivo) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Relatorios\GerenciadorRelatorios.cs:linha 24<=
+Classe da Exceção:-> Exception<=
+Origem da Exceção:-> Relatorios<=
+==============================10:51:51==============================

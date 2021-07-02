@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\unimed\Desktop\C_PUBLISH" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Publicacao_Normal" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="10/16/2012 09:48:44" />
+    <file relUrl="bin/FluorineFx.dll" publishTime="11/11/2008 21:23:20" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="10/02/2012 15:49:46" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="10/02/2012 15:49:46" />
+    <file relUrl="bin/Servicos.dll" publishTime="10/16/2012 09:48:43" />
+    <file relUrl="bin/UnimedVsfSystem.dll" publishTime="10/16/2012 09:48:43" />
+    <file relUrl="bin/Negocios.dll" publishTime="10/16/2012 09:48:43" />
+    <file relUrl="bin/log4net.dll" publishTime="03/30/2006 08:24:28" />
+    <file relUrl="bin/Negocios.pdb" publishTime="10/16/2012 09:48:43" />
+    <file relUrl="bin/Repositorios.dll" publishTime="10/16/2012 09:48:42" />
+    <file relUrl="bin/Dados.dll" publishTime="10/05/2012 17:07:32" />
+    <file relUrl="bin/antlr.runtime.dll" publishTime="08/01/2006 05:34:52" />
+    <file relUrl="Gateway.aspx" publishTime="10/02/2012 16:03:33" />
+    <file relUrl="bin/UnimedVsfSystem.pdb" publishTime="10/16/2012 09:48:43" />
+    <file relUrl="bin/Dados.pdb" publishTime="10/05/2012 17:07:32" />
+    <file relUrl="bin/MySql.Data.dll" publishTime="10/02/2012 15:52:48" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="10/02/2012 15:49:46" />
+    <file relUrl="bin/Servicos.pdb" publishTime="10/16/2012 09:48:43" />
+    <file relUrl="bin/Repositorios.pdb" publishTime="10/16/2012 09:48:42" />
+  </publishProfile>
+</publishData>

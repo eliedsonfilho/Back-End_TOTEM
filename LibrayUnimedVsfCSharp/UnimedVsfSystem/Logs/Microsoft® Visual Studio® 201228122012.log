@@ -1,0 +1,20 @@
+------------------------------11:12:56------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================11:12:56==============================
+------------------------------11:38:11------------------------------
+Mensagem de Erro:-> O thread estava sendo anulado.
+<=
+Pilha de Execução:->    em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.End()
+   em Util.CriarArquivo.CriarXls(Object arquivo, String nomeArquivo, Page page) na c:\Arquivos_UNIMED\Dev_Projetos\C#\LibrayUnimedVsfCSharp\Util\CriarArquivo.cs:linha 75<=
+Classe da Exceção:-> ThreadAbortException<=
+Origem da Exceção:-> mscorlib<=
+==============================11:38:11==============================

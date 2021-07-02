@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33D7ECED-89FF-4514-BC38-42B257D56C44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dados</RootNamespace>
+    <AssemblyName>Dados</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluorineFx">
+      <HintPath>..\..\References\FluorineFx.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arquivo.cs" />
+    <Compile Include="Bairro.cs" />
+    <Compile Include="Beneficiario.cs" />
+    <Compile Include="BoletoCobranca.cs" />
+    <Compile Include="CartaoIdentificacao.cs" />
+    <Compile Include="CidadePais.cs" />
+    <Compile Include="ClassePessoa.cs" />
+    <Compile Include="ContaCorrente.cs" />
+    <Compile Include="DadosBoletoCobranca.cs" />
+    <Compile Include="DadosCarteiraProvisoria.cs" />
+    <Compile Include="Feriado.cs" />
+    <Compile Include="MovDocFinan.cs" />
+    <Compile Include="ObjetoPesquisa.cs" />
+    <Compile Include="OpcaoVencimentoBoleto.cs" />
+    <Compile Include="VSF_ConfiguracaoFinanceira.cs" />
+    <Compile Include="VSF_ConfiguracaoSistema.cs" />
+    <Compile Include="Contrato.cs" />
+    <Compile Include="ContratoFinanceiro.cs" />
+    <Compile Include="DocFinanceiro.cs" />
+    <Compile Include="EmailPessoa.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="EnderecoPessoa.cs" />
+    <Compile Include="Enumeradores\EnumOperacaoBanco.cs" />
+    <Compile Include="Enumeradores\EnumRDP.cs" />
+    <Compile Include="Enumeradores\EnumSituacaoSolicitacaoCartaoIdentificacao.cs" />
+    <Compile Include="EstadoCivil.cs" />
+    <Compile Include="GrauDepPessoa.cs" />
+    <Compile Include="GrauEscolaridade.cs" />
+    <Compile Include="Logradouro.cs" />
+    <Compile Include="VSF_FaleConosco.cs" />
+    <Compile Include="VSF_GlosaMapeada.cs" />
+    <Compile Include="VSF_LogSistema.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="Medicamento.cs" />
+    <Compile Include="Enumeradores\EnumTipoBanco.cs" />
+    <Compile Include="ModeloCartaoIdent.cs" />
+    <Compile Include="MotivoBloqueioCartao.cs" />
+    <Compile Include="MotivoDesbloqueioCartao.cs" />
+    <Compile Include="Nacionalidade.cs" />
+    <Compile Include="Pessoa.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SexoPessoa.cs" />
+    <Compile Include="VSF_Sistema.cs" />
+    <Compile Include="SituacaoBeneficiario.cs" />
+    <Compile Include="VSF_SituacaoBeneficiario.cs" />
+    <Compile Include="VSF_SolicitacaoCartaoIdentificacao.cs" />
+    <Compile Include="TelefonePessoa.cs" />
+    <Compile Include="TelosUser.cs" />
+    <Compile Include="TipoBeneficiario.cs" />
+    <Compile Include="TipoCartaoIdentificacao.cs" />
+    <Compile Include="TipoEndereco.cs" />
+    <Compile Include="TipoLogradouro.cs" />
+    <Compile Include="TipoPessoa.cs" />
+    <Compile Include="TipoTelefone.cs" />
+    <Compile Include="VSF_TransacaoSistema.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

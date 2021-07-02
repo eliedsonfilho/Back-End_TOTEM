@@ -1,0 +1,7 @@
+------------------------------18:34:42------------------------------
+Mensagem de Erro:-> Referência de objeto não definida para uma instância de um objeto.
+<=
+Pilha de Execução:->    em Servicos.Fachada.ObterPorDocFinanceiro(Int32 autoIdDocFin, String codigoSistema, TelosUser usuario) na c:\Documentos Eliedson\Rotinas\Desenvolvimento\Projetos\C Sharp\LibrayUnimedVsfCSharp\Servicos\Fachada.cs:linha 438<=
+Classe da Exceção:-> NullReferenceException<=
+Origem da Exceção:-> Servicos<=
+==============================18:34:42==============================

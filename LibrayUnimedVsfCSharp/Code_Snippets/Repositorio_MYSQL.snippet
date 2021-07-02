@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Repositorio_MYSQL</Title>
+      <Author>Microsoft</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Classe</ID>
+          <ToolTip>Classe</ToolTip>
+          <Default>Objeto</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Parametro</ID>
+          <ToolTip>Parametro</ToolTip>
+          <Default>tipoParametro</Default>
+          <Function>
+          </Function>
+        </Literal>
+      <Literal Editable="true">
+          <ID>ColunaChave</ID>
+          <ToolTip>ColunaChave</ToolTip>
+          <Default>colunaChave</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+              <![CDATA[public class Repositorio$Classe$ : Repositorio, IRepositorio<$Classe$,$Parametro$>
+    { 
+        public $Classe$ ObterPorId($Parametro$ $ColunaChave$, bool lazy)
+        {
+            IDbCommand command;
+            //IDataReader dataReaderTmp;
+            $Classe$ objetoPesquisado = new $Classe$();
+
+            //Executando a pesquisa
+            try
+            {
+                command = new MySqlCommand(@"Select 
+                                            *
+                                            From 
+                                            $Classe$ where $ColunaChave$ = @$ColunaChave$");
+
+                SqlParameter parameter$ColunaChave$ = new SqlParameter("@$ColunaChave$", $ColunaChave$);
+                command.Parameters.Add(parameter$ColunaChave$);
+
+                //dataReaderTmp = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.MySql).ExecutarConsulta(command);
+                objetoPesquisado = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.MySql).ExecutarConsultaObject(command, objetoPesquisado, lazy);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            //Tratando o Retorno 
+            //objetoPesquisado = MontarObjetoDoReader(dataReaderTmp, objetoPesquisado, lazy);
+            
+            return objetoPesquisado;
+        }
+    
+        public IList<$Classe$> ObterTodos(bool lazy)
+        {
+            //IDataReader dataReaderTmp;
+            IList<$Classe$> listaObjetosPesquisados = null;
+            $Classe$ objetoPesquisado = new $Classe$();
+            IDbCommand command = null;
+            int qtdRegistro = 100;
+            StringBuilder filtros;
+            bool where = false;
+            //Montar o Comando
+            if (objetoPesquisado != null)
+            {
+                filtros = new StringBuilder();
+
+                command = new MySqlCommand(@"Select                                    
+                                           *
+                                           From 
+                                           $Classe$");
+                //Filtros
+                
+
+                //Se foi passado algun filtro
+                if (where)
+                {
+                    command.CommandText += " where ";
+                }
+                else
+                {
+                    filtros.Append(" LIMIT " + qtdRegistro);
+                }
+
+                //Concatena a string
+                command.CommandText += filtros.ToString();
+
+            }
+
+
+            //Executando a pesquisa
+            try
+            {
+                //dataReaderTmp = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.MySql).ExecutarConsulta(command);
+                listaObjetosPesquisados = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.MySql).ExecutarConsultaList(command, objetoPesquisado, lazy);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            //Tratando   o Retorno 
+            //listaObjetosPesquisados = MontarListaObjetosDoReader(dataReaderTmp, objetoPesquisado, lazy);
+
+            return listaObjetosPesquisados;
+        }
+        
+        public IList<$Classe$> ObterTodos($Classe$ objetoPesquisado, bool lazy)
+        {
+            //IDataReader dataReaderTmp;
+            IList<$Classe$> listaObjetosPesquisados = null;
+            IDbCommand command = null;
+            int qtdRegistro = 100;
+            StringBuilder filtros;
+            bool where = false;
+            //Montar o Comando
+            if (objetoPesquisado != null)
+            {
+                filtros = new StringBuilder();
+
+                command = new MySqlCommand(@"Select                                    
+                                           *
+                                           From 
+                                           $Classe$");
+                //Filtros
+                
+
+                //Se foi passado algun filtro
+                if (where)
+                {
+                    command.CommandText += " where ";
+                }
+                else
+                {
+                    filtros.Append(" LIMIT " + qtdRegistro);
+                }
+
+                //Concatena a string
+                command.CommandText += filtros.ToString();
+
+            }
+
+
+            //Executando a pesquisa
+            try
+            {
+                //dataReaderTmp = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.MySql).ExecutarConsulta(command);
+                listaObjetosPesquisados = GerenciadorConexaoBanco.GetInstancia(EnumTipoBanco.MySql).ExecutarConsultaList(command, objetoPesquisado, lazy);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            //Tratando   o Retorno 
+            //listaObjetosPesquisados = MontarListaObjetosDoReader(dataReaderTmp, objetoPesquisado, lazy);
+
+            return listaObjetosPesquisados;
+        }
+
+    }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
